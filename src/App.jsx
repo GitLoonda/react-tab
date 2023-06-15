@@ -32,6 +32,7 @@ function App() {
   return (
     <>
       <h1>App</h1>
+      <p>Tab UI</p>
       <button onClick={onModal}>모달창 생성</button>
       {flg ? <Modal offModal={offModal} /> : null}
       <h2>삼항연산자</h2>
